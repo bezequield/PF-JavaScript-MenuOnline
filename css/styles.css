@@ -1,0 +1,117 @@
+body{
+  background-color: #c28d4b;
+}
+
+header, .alert{
+  z-index: 100;
+}
+
+.nav-pills .nav-link{
+  color:#dfbe95
+}
+
+.nav-pills .nav-link.active{
+  color: #3c311f;
+  background-color: #dfbe95;
+  border-color: #c28d4b
+}
+
+.card-text{
+  color:#ddcdbf
+}
+
+table{
+  color: #dfbe95;
+  background-color: #744924;
+  }
+
+.text-warning{
+  color: #dfbe95 !important;
+ }
+
+ td p {
+  color:#dfbe95
+ }
+
+ td h6{
+  color:#dfbe95
+ }
+
+ tr th{
+  color:#dfbe95
+ }
+
+.btn-success{
+  color: #744924;
+    background-color: #dfbe95;
+    border-color: #744924;
+    border-radius: 6px;
+}
+
+.btn-success:hover{
+  color:  #dfbe95 ;
+  background-color:  #744924;
+  border-color: #dfbe95;
+  border-radius: 6px;
+}
+
+h5{
+  color:#ddcdbf;
+}
+
+.texto-precio{
+  color:#ddcdbf;
+}
+
+.description{
+  height: 25px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+.description:hover{
+  height: 80px;
+}
+.carrito{
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+.table__productos{
+  display: flex;
+}
+.table__productos > img{
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.table__cantidad > input{
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.hide, .remove{
+  display: none;
+}
+
+footer{
+  background-color: #744924;
+  color:#dfbe95
+}
+
+.alert-primary {
+  color: #744924;
+  background-color: #dfbe95;
+  border-color: #744924;
+}
+
+.alert-danger {
+  color: #dc3545;
+  background-color: #dfbe95;
+  border-color: #dfbe95;
+}
