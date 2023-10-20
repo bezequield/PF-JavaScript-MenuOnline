@@ -137,3 +137,34 @@ window.onload = function(){
     renderCarrito()
   }
 }
+
+const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Enviando...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_3m0g6ex';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Enviar';
+      alert('Enviado!');
+    }, (err) => {
+      btn.value = 'Enviar';
+      alert(JSON.stringify(err));
+    });
+});
+
+
+$('#btn-comprar').click(function(){
+      Swal.fire({        
+      type: 'success',
+      title: 'Pedido Realizado',
+      text: 'El Local tomó tu órden. Muchas gracias por tu compra!',        
+  });
+});	
+

@@ -115,3 +115,47 @@ footer{
   background-color: #dfbe95;
   border-color: #dfbe95;
 }
+
+.formulario{
+  line-height: 2;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 500px;
+  color: #686363;
+}
+
+.formulario fieldset {
+  border: none;
+  padding: 1.8rem 1rem;
+  border-bottom: 3px solid #e6b5a9; }
+
+  .subtitulo-pal{
+  font-size: 1rem;
+  color: #fff;
+}
+
+.field {
+  margin-bottom: 0.5rem;;
+}
+
+.field label {
+  display: block;
+  font-size: 12px;
+  color: #ebe8e8;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #198754;
+  color: #fff;
+  border: none
+}
